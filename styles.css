@@ -1,0 +1,164 @@
+.cabecera {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    padding: 1.5rem;
+    max-width: 100vw;
+}
+    header {
+        display: block;
+    }
+    html {
+        font-size: calc(1em + .25vw);
+}
+
+.imagen1{
+width: 180px;
+height: 32px;
+}
+
+img {
+overflow-clip-margin: content-box;
+overflow: clip;
+}
+html {
+font-size: calc(1em + .25vw);
+}
+
+.imagen2 {
+width: 160px;
+    height: 24px;
+}
+
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+html {
+    font-size: calc(1em + .25vw);
+}
+
+.cuadroemail{
+    display: flex;
+    flex-direction: column;
+    min-width: 22%;
+    gap: 1.5rem;
+    margin: auto;
+}
+
+.login{
+    font-family: IBMPlexSansMedium;
+    font-size: 1.5rem;
+    color: rgb(26, 29, 31);
+}
+.cuadro1{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(196, 205, 209);
+    border-radius: 8px;
+    
+}
+.label{
+    color: rgb(47, 51, 54);
+    font-size: 0.6rem;
+    font-family: IBMPlexSansRegular;
+    display: none;
+}
+.input{
+    color: rgb(47, 51, 54);
+    font-size: 0.6rem;
+    font-family: IBMPlexSansRegular;
+    display: none;
+}
+.cuadropassword{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(196, 205, 209);
+    border-radius: 8px;
+}
+.password{
+    color: rgb(47, 51, 54);
+    font-size: 0.6rem;
+    font-family: IBMPlexSansRegular;
+    display: none;
+}
+.password2{
+    flex: 1 1 0%;
+    padding: 1rem;
+    border: none;
+    border-radius: 8px;
+    color: rgb(26, 29, 31);
+    font-family: IBMPlexSansRegular;
+    font-size: 0.7rem;
+}
+.botonpassword{
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 0px 1rem;
+    background: none;
+    border: none;
+}
+.botonlogin{
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 0.7rem;
+    font-size: 0.6rem;
+    border-radius: 8px;
+    font-family: IBMPlexSansMedium;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 38, 62);
+    border: 1px solid rgb(0, 38, 62);
+}
+.alt1{
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+.alt2{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    gap: 0.5rem;
+    width: fit-content;
+}
+.checkbox{
+    flex: 1 1 0%;
+    padding: 1rem;
+    border: none;
+    border-radius: 8px;
+    color: rgb(26, 29, 31);
+    font-family: IBMPlexSansRegular;
+    font-size: 0.7rem;
+}
+.checkbox2{
+    color: rgb(47, 51, 54);
+    font-size: 0.6rem;
+    font-family: IBMPlexSansRegular;
+    display: inherit;
+}
+.forgot{
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 0.7rem;
+    font-size: 0.6rem;
+    border-radius: 8px;
+    font-family: IBMPlexSansMedium;
+    cursor: pointer;
+    color: rgb(0, 125, 194);
+    background-color: transparent;
+    border: none;
+}
+
+
+
