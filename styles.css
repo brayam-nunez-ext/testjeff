@@ -42,12 +42,17 @@ html {
 .cuadroemail{
     display: flex;
     flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    height: 100%;
     min-width: 22%;
+    max-width: 32%;
     gap: 1.5rem;
     margin: auto;
 }
 
 .login{
+    text-align: center;
     font-family: IBMPlexSansMedium;
     font-size: 1.5rem;
     color: rgb(26, 29, 31);
