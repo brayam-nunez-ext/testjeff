@@ -66,10 +66,14 @@ html {
     display: none;
 }
 .input{
+    flex: 1 1 0%;
+    padding: 1rem;
+    border: none;
+    border-radius: 8px;
     color: rgb(47, 51, 54);
     font-size: 0.6rem;
     font-family: IBMPlexSansRegular;
-    display: none;
+    
 }
 .cuadropassword{
     display: flex;
