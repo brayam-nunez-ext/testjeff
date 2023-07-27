@@ -7,9 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script> </script>
 </head>
 
 <body>
+    <div id="error"></div>
     <div id="root">
         <header class="cabecera">
             <img width="180px" height="32px" 
@@ -20,7 +22,7 @@
         </header>
 
         <main>
-            <form class="cuadroemail">
+            <form id="cuaderno" class="cuadroemail">
                 <span role="heading" aria-level="1" class="login">Login</span>
                 <div class="cuadro1">
                     <label for="email-email addres-input" class="label"></label>
@@ -36,14 +38,17 @@
                     </button>
                 </div>
                 <button class="botonlogin">Login</button>
+            
                 <div class="alt1">
                     <div class="alt2">
                         <input id="remember me-checkbox" type="checkbox" class="checkbox">
                         <label for="remember me-checkbox" class="checkbox2">Remember Me</label>
                         <button class="forgot">Forgot your password</button>
+                    
                     </div>
                 </div>
-            </div>
+            
+            </form>
         </main>
 
     </div>
